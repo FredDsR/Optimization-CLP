@@ -22,7 +22,7 @@ int main(int argc, char const *argv[]) {
         time = clock() - time;
         total_time_taken += ((double)time)/CLOCKS_PER_SEC;
     }
-    printf("Case 1 | Poor | Time: %lfs\n", total_time_taken/trials);
+    printf("Case 1 | Fast | Time: %lfs\n", total_time_taken/trials);
     
     return 0;
 }
